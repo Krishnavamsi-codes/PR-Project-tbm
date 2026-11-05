@@ -1,0 +1,13 @@
+Group,Method,Class,Precision,Recall
+1 Baseline (raw),DecisionTree,Grade 1 (low),0.5379,0.3702
+1 Baseline (raw),DecisionTree,Grade 2 (medium),0.6734,0.8008
+1 Baseline (raw),DecisionTree,Grade 3 (high),0.6616,0.5071
+2 Feature extraction,NaiveBayes + te_eng_lda,Grade 1 (low),0.5623,0.5344
+2 Feature extraction,NaiveBayes + te_eng_lda,Grade 2 (medium),0.7243,0.8038
+2 Feature extraction,NaiveBayes + te_eng_lda,Grade 3 (high),0.7244,0.5994
+3 Modified methods,CostSens-LDA,Grade 1 (low),0.5254,0.5892
+3 Modified methods,CostSens-LDA,Grade 2 (medium),0.7368,0.7628
+3 Modified methods,CostSens-LDA,Grade 3 (high),0.7054,0.6316
+4 Deep learning (reference),MLP (te_eng),Grade 1 (low),0.6092,0.408
+4 Deep learning (reference),MLP (te_eng),Grade 2 (medium),0.7124,0.832
+4 Deep learning (reference),MLP (te_eng),Grade 3 (high),0.7299,0.5889

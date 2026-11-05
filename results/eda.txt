@@ -1,0 +1,6 @@
+Full data: 260601 rows, 38 features; subsample: 20000 rows
+Missing values: 0
+Class share full / subsample (grade 1,2,3): 0.096/0.096 0.569/0.569 0.335/0.335
+geo_level_1_id: 31 unique ids
+geo_level_2_id: 1414 unique ids
+geo_level_3_id: 11595 unique ids

@@ -1,0 +1,11 @@
+Comparison,A,B,Metric,MeanDiff,p_paired,p_corrected
+Feature vs Baseline,LDA + te_eng,DecisionTree,macro-F1,0.0783,3.8e-05,0.00019
+Feature vs Baseline,LDA + te_eng,DecisionTree,accuracy,0.0453,2.3e-06,1.1e-05
+Modified vs Baseline,CostSens-LDA,DecisionTree,macro-F1,0.081,7.2e-05,0.00035
+Modified vs Baseline,CostSens-LDA,DecisionTree,accuracy,0.0403,1.7e-05,8.7e-05
+Modified vs Feature,CostSens-LDA,LDA + te_eng,macro-F1,0.0027,0.056,0.15
+Modified vs Feature,CostSens-LDA,LDA + te_eng,accuracy,-0.005,0.049,0.13
+Modified vs MLP,CostSens-LDA,MLP (te_eng),macro-F1,-0.0008,0.48,0.63
+Modified vs MLP,CostSens-LDA,MLP (te_eng),accuracy,-0.0158,0.0012,0.0052
+Feature vs MLP,LDA + te_eng,MLP (te_eng),macro-F1,-0.0035,0.075,0.19
+Feature vs MLP,LDA + te_eng,MLP (te_eng),accuracy,-0.0108,6.1e-06,3.1e-05

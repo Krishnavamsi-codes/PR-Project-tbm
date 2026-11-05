@@ -1,0 +1,16 @@
+Classifier,Step,MacroF1,Acc
+kNN,+LDA proj,0.6581,0.7205
+DecisionTree,raw,0.6043,0.6853
+DecisionTree,+target enc,0.6706,0.7328
+DecisionTree,+te+eng,0.6723,0.7325
+DecisionTree,+MI top-20,0.6734,0.7326
+DecisionTree,+Fisher top-20,0.6742,0.733
+DecisionTree,+PCA 95%,0.65,0.7189
+DecisionTree,+LDA proj,0.6673,0.7311
+NaiveBayes,raw,0.3994,0.4211
+NaiveBayes,+target enc,0.4344,0.4465
+NaiveBayes,+te+eng,0.4321,0.4438
+NaiveBayes,+MI top-20,0.4763,0.4789
+NaiveBayes,+Fisher top-20,0.46,0.4655
+NaiveBayes,+PCA 95%,0.4212,0.4589
+NaiveBayes,+LDA proj,0.6814,0.7319

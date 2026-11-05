@@ -1,0 +1,11 @@
+Comparison,A,B,Metric,MeanDiff,p_paired,p_corrected
+Feature vs Baseline,NaiveBayes + te_eng_lda,DecisionTree,macro-F1,0.0745,3.9e-13,1.3e-08
+Feature vs Baseline,NaiveBayes + te_eng_lda,DecisionTree,accuracy,0.0485,4.9e-11,1e-06
+Modified vs Baseline,CostSens-LDA,DecisionTree,macro-F1,0.0744,2.6e-14,1e-09
+Modified vs Baseline,CostSens-LDA,DecisionTree,accuracy,0.0412,5e-09,4.8e-05
+Modified vs Feature,CostSens-LDA,NaiveBayes + te_eng_lda,macro-F1,-0.0,0.99,1
+Modified vs Feature,CostSens-LDA,NaiveBayes + te_eng_lda,accuracy,-0.0073,1.6e-05,0.011
+Modified vs MLP,CostSens-LDA,MLP (te_eng),macro-F1,0.0204,3.8e-05,0.017
+Modified vs MLP,CostSens-LDA,MLP (te_eng),accuracy,-0.0077,0.00011,0.029
+Feature vs MLP,NaiveBayes + te_eng_lda,MLP (te_eng),macro-F1,0.0204,4.2e-06,0.005
+Feature vs MLP,NaiveBayes + te_eng_lda,MLP (te_eng),accuracy,-0.0004,0.77,0.89
