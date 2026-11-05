@@ -26,3 +26,10 @@ figure to `results/` and `figures/`. Finished experiments are cached in `results
 | `code/common.py`, `eda.py`, `track1_baselines.py`, `main.py`, `report.py` | Person 1 | data, CV harness, metrics, EDA, raw baselines, integration |
 | `code/track2_features.py` | Person 2 | target encoding, engineered features, PCA, LDA, MI, Fisher, ablation |
 | `code/track3_methods.py` | Person 3 | cost-sensitive Bayes, Mahalanobis kNN, balanced kNN, ensemble, MLP (reference), significance |
+
+## Scale study (20k vs 260k)
+```bash
+python code/scale_study.py       # subsample-vs-full distributions + learning curves -> results/scale_study.json
+python code/importance_study.py  # random-forest importances, 20k vs all rows
+python code/error_study.py       # confusion matrices and per-region gains, 20k vs all rows
+```
